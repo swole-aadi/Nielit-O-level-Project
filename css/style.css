@@ -1,0 +1,408 @@
+    /* univsersal */
+    *{
+    padding: 0;
+    margin: 0;
+
+    }
+    body{
+        background-color: rgb(228 237 237);
+    }
+    /* primary tegs */
+    .h-primary{
+        font-size: 50px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    .h-secoundry{
+        font-size: 30px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+   .p-primary{
+        font-size: 18px;
+        font-family: 'Baloo Bhaina 2', cursive;
+   }
+   .center{
+       text-align: center;
+   }
+
+
+    /* navbar  */
+    header{
+        position: fixed;
+        width: 100%;
+    }
+   
+    /* .navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #101820FF;
+    height: 43px;
+    }
+    .navbar ul{
+    display: flex;  
+    }
+    .navbar ul li{
+    list-style: none;
+    margin: 5px 2px;
+    }
+    .navbar ul li a{
+    text-decoration: none;
+    padding: 2px 14px;
+    color: #FEE715FF;
+    font-size: 23px;
+    }
+    .navbar ul li a:hover{
+    background-color: #FEE715FF;
+    color: #101820FF;
+    border-radius: 15px;
+    }
+.search{
+    padding-left: 11em;
+    
+    
+}
+.search input{
+    border-radius: 4px;
+    height: 34px;
+    width: 20em;
+    background-color: #101820FF;
+    color: #FEE715FF;
+    border: 1px solid rgb(105, 105, 105);
+}
+
+.search input:hover{
+    background-color:#FEE715FF ;
+    color:#101820FF ;
+}
+.search button{
+    border-radius: 15px;
+    height: 34px;
+    width: 8em;
+    background-color: #101820FF;
+    color: #FEE715FF;
+    border: 1px solid rgb(105, 105, 105);
+   
+}
+.search button:hover{
+    background-color:#FEE715FF ;
+    color:#101820FF ;
+    
+} */
+
+
+/* section  */
+
+#welcome img{
+    width: 100%;
+}
+.section{
+    display: flex;
+    margin-bottom: 30px;
+}
+.container{
+    width: 60%;
+    margin: 2px 23px;
+}
+.sidebar {
+    width: 40%;
+   text-align: center;
+}
+.sidebar img{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+#block{
+    margin: 50px 2px;
+    /* border: 5px solid rgb(105, 105, 105);
+    border-radius: 15px; */
+}
+.line{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.gallery{
+    border: 5px solid rgb(105, 105, 105);
+    border-radius: 15px;
+}
+.photo-gallery{
+  padding: 1px 20px;
+  text-align: center;
+}
+.photo-gallery img{
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.cart{
+    display: flex;
+}
+
+.pd{
+    border: 4px solid rgb(105, 105, 105);
+    margin: 2px 61px;
+    border-radius: 20px;
+   
+}
+
+
+.pd img{
+    border-radius: 15px 15px 0px 0px;
+  
+}
+.pd h3{
+    text-align: center;
+    padding: 15px 2px;
+}
+.pd h3 a{
+    text-decoration: none;
+    background-color:  rgb(228 237 237);
+    color: #101820FF;
+    /* border-radius: 15px;
+    border: 2px solid rgb(105, 105, 105); */
+    padding: 1px 25px;
+}
+#bagnath img{
+    width: 298px;
+}
+/* .pd h3 a:hover{
+    
+} */
+#pindari img{
+    height: 171px;
+}
+
+.map{
+    border: 3px solid rgb(105, 105, 105);
+}
+
+
+
+    /* footer */
+#headding{
+    text-align: center;
+    background-color: #101820FF;
+    color: #FEE715FF;
+    font-size: 2rem;
+ 
+    border-bottom: 1px solid rgb(105, 105, 105);
+    border-top: 1px solid rgb(105, 105, 105);
+    }
+.footer {
+      display: flex;
+      text-align: center;
+      background-color: #101820FF;
+      color:#FEE715FF ;
+      padding: 13px 2px;
+  }
+.footer h3{
+font-size: 27px;
+font-weight: bold;
+text-decoration: underline;
+
+}
+.footer p{
+ font-size: 22px;
+}
+
+.other{
+    border: 1px solid rgb(105, 105, 105);
+    margin: 0px 57px;
+    padding: 0px 51px;
+    border-radius: 15px;
+}
+.copy{
+    border-top: 1px solid rgb(105, 105, 105);
+    text-align: center;
+    background-color: #101820FF;
+    color: #FEE715FF;
+    padding: 10px 2px;
+}
+.copy p a {
+    text-decoration: none;
+    color:#FEE715FF ;
+}
+
+/* map.html styling */
+.map iframe{
+    width: 100%;
+    height: 600px;
+}
+
+/* history.html  styling */
+.history-text{
+    margin: 20px;
+    border-radius: 15px;
+    border: 3px solid rgb(105, 105, 105);
+    padding: 5px;
+}
+.history-text img{
+    width: 100%;
+    height: 150px;
+    border: 8px solid black;
+    border-radius: 15px;
+}
+.history-text h3, .bg-other{
+    background-color: #101820FF;
+    color: #FEE715FF;
+    border-radius: 15px;
+    border: 5px solid rgb(105, 105, 105);
+    margin: 20px;
+}
+
+/* other.html styling */
+#history-img-bagnath{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+/* prime.html styling */
+.float{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card-prime{
+    border: 3px solid rgb(105, 105, 105);
+    margin: 25px 41px;
+    border-radius: 15px;
+    
+}
+.card-prime img{
+    width: 295px;
+    height: 171px;
+    border-radius: 12px 12px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+/* wide display responsive */
+@media only screen and (min-width: 1270px){
+    .center-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .sidebar img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-prime img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* ipad pro responsive */
+
+@media only screen and (max-width: 1120px){
+    .cart{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .other{
+        margin: 10px 57px;
+    }
+    .float{
+       
+        grid-template-columns: 1fr 1fr;
+    }
+    .card-prime{
+        width: 300px;
+        
+    }
+    .card-prime img{
+        width: 294px;
+        height: 171px;
+    }
+    
+}
+/* ipad responsive */
+@media only screen and (max-width: 700px){
+    .section {
+        flex-direction: column;
+    }
+    .container {
+        width: 100%;
+        margin: 20px 23px;
+    }
+    .sidebar{
+        width: 100%;
+        margin: 20px 2px;
+    }
+    .sidebar img{
+        width: 30rem;
+    }
+    .gallery {
+        border: 3px solid rgb(105, 105, 105);
+        
+    }
+    .history-text img{
+        display: none;
+    }
+    .float{
+       display: block;
+       margin: auto;
+      width: 50%;
+    }
+    #history-img-bagnath {
+    width: 75%;
+}
+    
+}
+
+/* mobile responsive */
+@media only screen and (max-width: 480px){
+.container {
+        width: 93%;
+      
+    }
+    #welcome{
+    display: none;
+}
+    .gallery{
+    border: none;
+}
+.photo-gallery img{
+    padding: 10px 2px;
+}
+.sidebar img {
+    width: 20rem;
+}
+.pd {
+    border: none;
+    
+}
+.pd img{
+    margin-left: -22px;
+}
+/* primary tegs */
+.h-primary{
+    font-size: 34px;
+}
+.h-secoundry{
+    font-size: 23px;
+}
+    .p-primary{
+    font-size: 14px;
+    
+}
+#secound h3{
+    font-size: 20px;
+}
+.card-prime{
+    border: none;
+    margin: 0px -40px;
+}
+}
+
